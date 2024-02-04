@@ -1,0 +1,106 @@
+/*navigations are : 
+sidebar , maindivision , sidedivision , first , second , 
+third , four , five */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgba(100,255,100,100);
+}
+nav .maindivision{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background-color: white;
+}
+.first , .second , .third , .four , .five , .menu{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+    color: black;
+    transition-duration: .5s;
+}
+
+
+
+.maindivision .first:hover , .maindivision .second:hover , .maindivision .third:hover , .maindivision .four:hover , .maindivision .five:hover{
+    color: red;
+    background-color: rgb(209, 179, 63);
+    padding-left: 20px;
+    padding-right: 15px;
+    border: 1px solid yellow;
+    border-radius: 2px;
+    transition-property: background-color ;
+    font-size: 32px;
+    transform: scale(1,1);
+    transition: ease-in;
+    transition-delay: .01s;
+    transition-duration: .2s;
+}
+.maindivision .menu:hover{
+    color: white;
+}
+
+.maindivision .menu{
+    transition: none;
+}
+.sidedivision{
+    display: flex;
+    background-color: rgba(255,255,255,0.6);
+    flex-direction: column;
+    width: 0%;
+    max-width: 300px;
+    height: 0vh;
+    position: fixed;
+    top: 50px;
+    right: 0px;
+    visibility: hidden;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+.sidedivision .first , .sidedivision .second , .sidedivision .third , .sidedivision .four , .sidedivision .five {
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 22px;
+    margin-left: 20px;
+    margin-right: 0px;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10%;
+    transition-duration: .8s;
+    transition-timing-function: ease;
+}
+.sidedivision .first:hover , .sidedivision .second:hover , .sidedivision .third:hover , .sidedivision .four:hover , .sidedivision .five:hover{
+    background-color: white;
+    transform: scale(1,1);
+    transition: font-size;
+    font-size: 34px;
+    transition-duration: .1s;
+    transition-delay: 0s;
+    border-radius: 3%;
+    transform: rotateX(10deg);
+
+}
+p{
+    font-size: 34px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.sidebar{
+    background-color : rgba(255,25,100,0.2);
+}
+.sidedivision{
+    background-color : rgba(255, 255, 255, 0.4) ; 
+}
