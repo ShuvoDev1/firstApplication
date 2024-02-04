@@ -20,7 +20,7 @@ nav .maindivision{
 .first , .second , .third , .four , .five , .menu{
     text-decoration: none;
     display: inline-block;
-    font-size: 10px;
+    font-size: 22px;
     color: black;
     transition-duration: .5s;
 }
