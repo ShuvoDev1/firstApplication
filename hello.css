@@ -20,7 +20,7 @@ nav .maindivision{
 .first , .second , .third , .four , .five , .menu{
     text-decoration: none;
     display: inline-block;
-    font-size: 22px;
+    font-size: 28px;
     color: black;
     transition-duration: .5s;
 }
@@ -35,7 +35,7 @@ nav .maindivision{
     border: 1px solid yellow;
     border-radius: 2px;
     transition-property: background-color ;
-    font-size: 22px;
+    font-size: 32px;
     transform: scale(1,1);
     transition: ease-in;
     transition-delay: .01s;
@@ -54,7 +54,7 @@ nav .maindivision{
     flex-direction: column;
     width: 0%;
     max-width: 300px;
-    height: 100vh;
+    height: 0vh;
     position: fixed;
     top: 50px;
     right: 0px;
